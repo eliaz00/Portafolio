@@ -1,0 +1,9 @@
+#main-navbar__sloga-two{
+  font-family: 'Modak', sans-serif;
+}
+
+.active{
+  box-shadow: inset 0px -8px rgba(179, 175, 175, 0.062);
+  background: rgba(190, 188, 188, 0.2);
+  backdrop-filter: blur(20px);
+}

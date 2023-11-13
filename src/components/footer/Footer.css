@@ -1,0 +1,14 @@
+.footer{
+height: 350px;
+ background: url("../../assets/img/nubespng5.png") no-repeat center center;
+ background-size: cover;
+}
+
+#networks ul:hover a{
+  filter: blur(2px);
+}
+#networks ul li a:hover{
+  filter: none;
+}
+
+

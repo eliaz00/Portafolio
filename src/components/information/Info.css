@@ -1,0 +1,27 @@
+#information{
+  height: 100%;
+  background: url(../../assets/img/nubes6-1.png) no-repeat center center;
+  background-size: cover;
+  font-family: 'Modak', sans-serif;
+  color: rgb(0, 151, 201);
+}
+
+#information #information-text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#information #information-text-two{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(66, 196, 240);
+}
+
+#barra{
+  padding: 3px;
+  background-color: rgb(0, 151, 201);
+  border-radius: 45px;
+}
+
+#information-main__skills{
+  font-size: 100px;
+}
+

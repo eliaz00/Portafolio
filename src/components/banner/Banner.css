@@ -1,0 +1,116 @@
+#banner{
+  margin-top: 0;
+  height: 100vh;
+  background: url('../../assets/img/nubespng2.png') no-repeat center center;
+  background-size: cover;
+}
+
+#banner-ico__astronaut{
+  padding-top: 50px;
+}
+
+@media screen and (max-width:600px) {
+  #banner-ico__astronaut{
+    display: none;
+  }
+
+  #banner-main{
+    margin-top: 175px;
+  }
+}
+
+
+#banner-title{
+  font-family: 'Modak', sans-serif;
+}
+
+#banner-title__developer{
+  color: rgb(0, 151, 201);
+  /* color: rgb(220, 38, 38); */
+}
+
+
+
+.concept-eight {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.char {
+		flex: 1;
+		position: relative;
+		&:before {
+			content: attr(data-content);
+			position: absolute;
+			top: 0;
+			color: transparent;
+			text-shadow: none;
+		}
+	}
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 280px;
+  /* animation: fly 2.5s ease infinite; */
+  &:hover .char:before {
+    transition: 0.5s ease;
+    color: rgba(255, 255, 255, 0.8);
+    animation: falls 1.3s ease forwards;
+  }
+  &:hover .char:nth-child(1):before {
+    animation: falls 0.8s ease 0.2s forwards;
+  }
+  &:hover .char:nth-child(2n + 3):before {
+    animation: falls 0.9s ease 0.3s forwards;
+  }
+}
+
+.word .f{
+   animation: fly 2.3s ease infinite;
+}
+
+.word .a{
+   animation: fly 2.6s ease infinite;
+}
+
+.word .l{
+   animation: fly 2.9s ease infinite;
+}
+
+.word .l-2{
+   animation: fly 3.2s ease infinite;
+}
+
+.word .s{
+   animation: fly 3.5s ease infinite;
+}
+
+@keyframes falls {
+	0% {
+		opacity: 0;
+		top: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		top: 100px;
+	}
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
