@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../dark-mode/DarkMode.css";
+import Plane from '../../assets/img/plane.png';
 
 export function DarkMode() {
   const [cambio, setCambio] = useState("false");
@@ -34,7 +35,7 @@ export function DarkMode() {
         <span aria-hidden="true" className="pilot__container">
           <span className="pilot-bear">
             <img
-              src="https://assets.codepen.io/605876/pilot-bear.svg"
+              src={Plane}
               alt="pilot-bear"
               className="pilot"
             />

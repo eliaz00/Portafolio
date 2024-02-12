@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer flex justify-center items-end">
       <div className="flex flex-col w-full">
-        <h2 className="text-center text-5xl">Contatcts</h2>
+        <h2 className="text-center text-5xl">Contacts</h2>
 
         <div id="networks" className=" flex my-3 justify-center">
           <ul className="flex gap-9 h-11 items-center">
